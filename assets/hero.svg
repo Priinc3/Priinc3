@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" role="img" aria-label="Prince Gondaliya — AI Automation Engineer">
+  <style>
+    .n{font-family:ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;font-weight:800;letter-spacing:-1px}
+    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    @keyframes drift{0%{transform:translate(0,0)}50%{transform:translate(38px,-22px)}100%{transform:translate(0,0)}}
+    @keyframes slide{0%{background-position:0% 50%}100%{background-position:200% 50%}}
+    @keyframes beat{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.28;transform:scale(.82)}}
+    @keyframes fade{0%{opacity:0;transform:translateY(9px)}100%{opacity:1;transform:translateY(0)}}
+    .g1{animation:drift 17s ease-in-out infinite}
+    .g2{animation:drift 23s ease-in-out infinite reverse}
+    .rule{animation:slide 7s linear infinite;background-size:200% 100%}
+    .pip{animation:beat 2.4s ease-in-out infinite;transform-origin:center}
+    .l1{animation:fade 1s ease both}
+    .l2{animation:fade 1s .18s ease both}
+    .l3{animation:fade 1s .36s ease both}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <radialGradient id="a"><stop offset="0" stop-color="#E10600" stop-opacity=".30"/><stop offset="1" stop-color="#E10600" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b"><stop offset="0" stop-color="#22D3EE" stop-opacity=".16"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop offset="0" stop-color="#E10600"/><stop offset=".5" stop-color="#FF6B3D"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+  </defs>
+  <rect width="900" height="240" fill="none"/>
+  <ellipse class="g1" cx="250" cy="60" rx="300" ry="150" fill="url(#a)"/>
+  <ellipse class="g2" cx="680" cy="190" rx="300" ry="150" fill="url(#b)"/>
+  <text class="n l1" x="450" y="96" text-anchor="middle" font-size="58" fill="#f5f5f5">Prince Gondaliya</text>
+  <rect class="rule l2" x="330" y="118" width="240" height="3" rx="1.5" fill="url(#accent)"/>
+  <g class="l3">
+    <circle class="pip" cx="268" cy="158" r="5" fill="#22C55E"/>
+    <text class="m" x="450" y="163" text-anchor="middle" font-size="13" fill="#8a8a8a">open to AI / ML internships &#183; 2027-batch full-time &#183; remote or India</text>
+  </g>
+  <text class="m l3" x="450" y="200" text-anchor="middle" font-size="11" fill="#555" letter-spacing="2.4">B.TECH CSE (AI/ML) &#183; ADANI UNIVERSITY &#183; CGPA 8.02</text>
+</svg>

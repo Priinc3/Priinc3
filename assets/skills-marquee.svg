@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 96" width="100%" role="img" aria-label="Scrolling list of skills">
+  <style>
+    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;font-weight:600}
+    .dot{fill:#30363d}
+    @keyframes l{from{transform:translateX(0)}to{transform:translateX(-900px)}}
+    @keyframes r{from{transform:translateX(-900px)}to{transform:translateX(0)}}
+    @keyframes dim{0%,100%{opacity:1}50%{opacity:.2}}
+    .a{animation:l 38s linear infinite}
+    .b{animation:r 46s linear infinite}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <linearGradient id="fadeL" x1="0" x2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/></linearGradient>
+    <linearGradient id="fadeR" x1="1" x2="0"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/></linearGradient>
+    <g id="rowA" class="m" fill="#c9d1d9">
+      <text x="30" y="34">Python</text><text class="dot" x="103" y="34">&#9679;</text>
+      <text x="122" y="34">PyTorch</text><text class="dot" x="199" y="34">&#9679;</text>
+      <text x="218" y="34">Transformers</text><text class="dot" x="333" y="34">&#9679;</text>
+      <text x="352" y="34">YOLOv8 / v11</text><text class="dot" x="463" y="34">&#9679;</text>
+      <text x="482" y="34">Whisper ASR</text><text class="dot" x="585" y="34">&#9679;</text>
+      <text x="604" y="34">LangGraph</text><text class="dot" x="694" y="34">&#9679;</text>
+      <text x="713" y="34">RAG</text><text class="dot" x="759" y="34">&#9679;</text>
+      <text x="778" y="34">LoRA / QLoRA</text>
+    </g>
+    <g id="rowB" class="m" fill="#8b949e">
+      <text x="30" y="72">FastAPI</text><text class="dot" x="105" y="72">&#9679;</text>
+      <text x="124" y="72">n8n</text><text class="dot" x="162" y="72">&#9679;</text>
+      <text x="181" y="72">ERPNext / Frappe</text><text class="dot" x="316" y="72">&#9679;</text>
+      <text x="335" y="72">React</text><text class="dot" x="394" y="72">&#9679;</text>
+      <text x="413" y="72">TypeScript</text><text class="dot" x="510" y="72">&#9679;</text>
+      <text x="529" y="72">Docker</text><text class="dot" x="604" y="72">&#9679;</text>
+      <text x="623" y="72">AWS</text><text class="dot" x="672" y="72">&#9679;</text>
+      <text x="691" y="72">GCP</text><text class="dot" x="740" y="72">&#9679;</text>
+      <text x="759" y="72">Postgres</text><text class="dot" x="833" y="72">&#9679;</text>
+      <text x="852" y="72">REST</text>
+    </g>
+  </defs>
+  <rect width="900" height="96" rx="10" fill="#0d1117" stroke="#21262d"/>
+  <g class="a"><use href="#rowA"/><use href="#rowA" x="900"/></g>
+  <g class="b"><use href="#rowB"/><use href="#rowB" x="900"/></g>
+  <rect x="0" y="1" width="80" height="94" fill="url(#fadeL)" style="animation:dim 4s ease-in-out infinite"/>
+  <rect x="820" y="1" width="80" height="94" fill="url(#fadeR)" style="animation:dim 4s ease-in-out infinite"/>
+</svg>
