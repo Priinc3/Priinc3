@@ -15,7 +15,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Priinc3&show_icons=true&theme=radical&include_border=true&rank=1,2,3,4,5,6,7,8,9,10&count_private=true" alt="GitHub stats">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Priinc3&theme=radical&date_format=DD%20MM%20YYYY" alt="Contribution streak">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Priinc3&theme=radical" alt="Contribution streak">
 </p>
 
 <p align="center">
